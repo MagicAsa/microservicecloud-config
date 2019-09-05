@@ -16,9 +16,9 @@ server:
         username: root
         password: root
         dbcp2:
-          min-id1e: 5
+          min-idle: 5
           initial-size: 5
-          max-tatal: 5
+          max-total: 5
           max-wait-millis: 200
 
 mybatis:
@@ -55,9 +55,9 @@ server:
         username: root
         password: root
         dbcp2:
-          min-id1e: 5
+          min-idle: 5
           initial-size: 5
-          max-tatal: 5
+          max-total: 5
           max-wait-millis: 200
 
 mybatis:
